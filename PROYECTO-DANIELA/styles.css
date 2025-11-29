@@ -1,0 +1,72 @@
+.menu-opcion {
+    color: rgb(173, 173, 173);
+}
+
+.MacBook-pro-de-14 {
+    color:rgb(166, 37, 144);
+    
+
+    
+}
+
+.con-los-superpoderes-del-chip-5m {
+    color: rgb(173, 81, 219);
+
+}
+
+.consulta-la-disponibilidad-mas-adelante {
+    color: grey;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none; ;
+}
+
+.mas-informacion {
+ border-style: solid;
+ border-width: 1px;
+ border-color: blue;
+ border-radius: 10px;
+ background-color: white;
+
+}
+
+.boton-azul {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 10px; 
+    background-color: blue;  
+}
+
+.navhead{
+    background-color: rgb(72, 72, 72);
+}
+
+.comprar {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 10px; 
+    background-color: blue; 
+    color: white; 
+}
+
+.banner {
+    width: 100%;
+
+} 
+
+.caja {
+    display: flex;
+
+}
+
+.hijo {
+    text-align: center;
+}
+
