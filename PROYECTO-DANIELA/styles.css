@@ -1,12 +1,11 @@
-.menu-opcion {
-    color: rgb(173, 173, 173);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .MacBook-pro-de-14 {
-    color:rgb(166, 37, 144);
-    
-
-    
+    color: rgb(166, 37, 144);
 }
 
 .con-los-superpoderes-del-chip-5m {
@@ -15,51 +14,70 @@
 }
 
 .consulta-la-disponibilidad-mas-adelante {
-    color: grey;
-    
+    color: rgb(228, 206, 64);
+
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    list-style-type: none; ;
+    list-style-type: none;
+    height: 10px;
+}
+
+.navbar li{
+    margin: 5px;
+}
+.navbar li a{
+    color: rgb(173, 173, 173);
+}
+
+.navhead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(72, 72, 72);
+}
+
+.navhead img{
+    width: 30px;
+    height: 30px;
 }
 
 .mas-informacion {
- border-style: solid;
- border-width: 1px;
- border-color: blue;
- border-radius: 10px;
- background-color: white;
-
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 9rem;
+    color: blue;
 }
 
 .boton-azul {
     border-style: solid;
     border-width: 1px;
     border-color: blue;
-    border-radius: 10px; 
-    background-color: blue;  
-}
-
-.navhead{
-    background-color: rgb(72, 72, 72);
+    border-radius: 10px;
+    background-color: blue;
+    width: 9rem;
+    color: white;
 }
 
 .comprar {
     border-style: solid;
     border-width: 1px;
     border-color: blue;
-    border-radius: 10px; 
-    background-color: blue; 
-    color: white; 
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
 }
 
 .banner {
     width: 100%;
-
-} 
+}
 
 .caja {
     display: flex;
@@ -70,3 +88,74 @@
     text-align: center;
 }
 
+.Portada {
+    background-image: url("https://www.apple.com/v/macbook-pro/at/images/meta/macbook-pro__bmu4mp5lxjiq_og.png?202510171232");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 1rem;
+}
+.caja-ipad {
+    /* background-image: url("https://innovainformatica.com/images-amigables/meg9/apple-ipad-pro-11-m4-2tb-wifi-cellular-vidrio-nanotexturizado-plata-mwrt3ty-a-grande.jpg"); */
+    background-color: black;
+    background-position: center;
+    background-size: 45rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45rem;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 1rem;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+
+.img-ipad{
+    width: 400px;
+    height: 400px;
+}
+
+.cajaifon {
+    background-image: url("https://www.apple.com/newsroom/images/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/tile/Apple-iPhone-17-Pro-camera-close-up-250909-lp.jpg.landing-big_2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 1rem;
+}
+
+.caja-boton {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.caja-boton button{ 
+    margin: 5px;
+}
+
+.cajatexto {
+    margin-top: 30rem;
+    color: white;
+}
+.cajatexto2 {
+    top: 100px;
+    color: white;
+}
