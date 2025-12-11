@@ -4,18 +4,8 @@
     box-sizing: border-box;
 }
 
-.MacBook-pro-de-14 {
-    color: rgb(166, 37, 144);
-}
-
-.con-los-superpoderes-del-chip-5m {
-    color: rgb(173, 81, 219);
-
-}
-
-.consulta-la-disponibilidad-mas-adelante {
-    color: rgb(228, 206, 64);
-
+button{
+    cursor: pointer;
 }
 
 .navbar {
@@ -24,55 +14,83 @@
     align-items: center;
     list-style-type: none;
     height: 10px;
+    margin-left: 2px;
 }
 
 .navbar li{
     margin: 5px;
 }
 .navbar li a{
-    color: rgb(173, 173, 173);
+    color: rgb(204, 204, 204);
 }
 
 .navhead{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100%;
     background-color: rgb(72, 72, 72);
+    height: 2rem;
 }
 
 .navhead img{
     width: 30px;
     height: 30px;
+    right: 0px;
 }
 
 .mas-informacion {
     border-style: solid;
     border-width: 1px;
     border-color: blue;
-    border-radius: 10px;
+    border-radius: 2rem;
     background-color: transparent;
-    width: 9rem;
     color: blue;
+    padding: 15px;
+    font-size: 20px;
+    margin-right: 1rem
 }
 
 .boton-azul {
     border-style: solid;
     border-width: 1px;
     border-color: blue;
-    border-radius: 10px;
+    border-radius: 2rem;
     background-color: blue;
-    width: 9rem;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin-left: 1rem;
+}
+.mas-informacion:hover{
+    background-color: blue;
     color: white;
 }
-
-.comprar {
+.comprar:hover{
+    background-color: blue;
+    color: white;
+}
+.mas-informacion2 {
     border-style: solid;
     border-width: 1px;
     border-color: blue;
-    border-radius: 10px;
+    border-radius: 2rem;
     background-color: blue;
     color: white;
+    font-size: 15px;
+    padding: 15px;
+    margin-left: 1rem;
+}
+.comprar{
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 2rem;
+    background-color: transparent;
+    color: blue;
+    padding: 15px;
+    font-size: 15px;
+    margin-right: 1rem
 }
 
 .banner {
@@ -81,11 +99,14 @@
 
 .caja {
     display: flex;
-
+    justify-content: space-around;
 }
 
 .hijo {
     text-align: center;
+    background-color: rgb(216, 216, 216);
+    margin: 5px;
+    padding: 7.8rem;
 }
 
 .Portada {
@@ -103,7 +124,7 @@
     padding: 1rem;
 }
 .caja-ipad {
-    /* background-image: url("https://innovainformatica.com/images-amigables/meg9/apple-ipad-pro-11-m4-2tb-wifi-cellular-vidrio-nanotexturizado-plata-mwrt3ty-a-grande.jpg"); */
+    background-image: url("https://innovainformatica.com/images-amigables/meg9 apple-ipad-pro-11-m4-2tb-wifi-cellular-vidrio-nanotexturizado-plata-mwrt3ty-a-grande.jpg");
     background-color: black;
     background-position: center;
     background-size: 45rem;
@@ -117,14 +138,11 @@
     margin-top: 5px;
     padding: 1rem;
     align-content: flex-start;
-    margin-top: 20px;
 }
-
 .img-ipad{
     width: 400px;
     height: 400px;
 }
-
 .cajaifon {
     background-image: url("https://www.apple.com/newsroom/images/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/tile/Apple-iPhone-17-Pro-camera-close-up-250909-lp.jpg.landing-big_2x.jpg");
     background-position: center;
@@ -139,18 +157,13 @@
     margin-top: 5px;
     padding: 1rem;
 }
-
 .caja-boton {
-    display: flex;
-    justify-content: space-around;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    width: 100%;
+    height: 5rem;
+    padding: 20px;
 }
-
-.caja-boton button{ 
-    margin: 5px;
-}
-
 .cajatexto {
     margin-top: 30rem;
     color: white;
@@ -158,4 +171,47 @@
 .cajatexto2 {
     top: 100px;
     color: white;
+}
+footer{
+    background-color:rgb(29, 29, 31);
+    color: rgb(155, 155, 155);
+    font-size: 15px;
+    align-items: center;
+}
+.textofooter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.textofooter p{
+    font-size: 10px;
+}
+.enlaces{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subenlaces{
+    margin: 0px;
+}
+
+.mono{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.studio{
+    background-image: url("https://www.apple.com/br/tv-pr/shows-and-films/t/the-studio/images/season-01/show-home-graphic-header/key-art-01/4x1/Apple_TV_The_Studio_key_art_graphic_header_4_1_show_home.jpg.og.jpg?1742392649823");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
